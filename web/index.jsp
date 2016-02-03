@@ -15,6 +15,11 @@
                 <label>Card Holder's Name</label>
                 <input name="cardHolderName" type="text" size="20" autocomplete="off" />
             </div>
+            <br/>
+            <div >
+                <label>Card Number</label>
+                <input name="cardNumber" type="text" size="20" autocomplete="off" />
+            </div>
             <!-- more tags here -->
             <button type="submit" class="submit-button">Submit Payment</button>
         </form>
