@@ -33,6 +33,7 @@ public class PaymentFormProcessor extends HttpServlet {
             out.println("<h1>Servlet PaymentFormProcessor at " + request.getContextPath() + "</h1>");            
             out.println("<h3>PaymentFormProcessor's CardHolderName: " + request.getParameter("cardHolderName") + "</h3>");
             out.println("<h3>PaymentFormProcessor's CardNumber: " + request.getParameter("cardNumber") + "</h3>");
+             out.println("<h3>PaymentFormProcessor's Cardcode: " + request.getParameter("cardcode") + "</h3>");
             out.println("</body>");
             out.println("</html>");
         } finally {            
